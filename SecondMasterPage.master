@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="SecondMasterPage.master.cs" Inherits="SecondMasterPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div style="width: 80%; float: left; margin-left: 10%; margin-right:10%; margin-top: 70px; margin-bottom: 20px; background-color: #eaf1f1; color: black;">
+        <div style="width: 26%; float: left; margin-bottom: 20px; margin-top:10px;">
+            <asp:Button CssClass="mainbtn" ID="btn_Add_New_Entity" runat="server" Text="ADD NEW ENTITY" OnClientClick="javascript:abc()" OnClick="btn_Add_New_Entity_Click" />
+            <br />
+            <asp:Button CssClass="mainbtn" ID="btn_Add_Relationships" runat="server" Text="ADD RELATIONSHIPS" Width="230px" OnClick="btn_Add_Relationships_Click" />
+            <br />
+            <asp:Button CssClass="mainbtn" ID="btn_UML" runat="server" Text="UML" OnClick="btn_UML_Click" />
+            <br />
+            <asp:Button CssClass="mainbtn" ID="btn_Source_Code" runat="server" Text="SQL TABLE" Width="230px" OnClick="btn_Source_Code_Click" />
+            <br />
+            <asp:Button CssClass="mainbtn" ID="btn_Download_Project" runat="server" Text="DOWNLOAD PROJECT" Width="230px" />
+            <br />
+            <asp:Button CssClass="mainbtn" ID="btn_Rename" runat="server" Text="RENAME" Width="230px" />
+            <br />
+            <asp:Button CssClass="mainbtn" ID="btn_Delete" runat="server" Text="DELETE" Width="230px" />
+        </div>
+
+        <div style="border-style: none; float: left; border-color: inherit; width: 60%;" runat="server" id="mainframe">
+            <asp:ContentPlaceHolder ID="Main" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+
+</asp:Content>
+

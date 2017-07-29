@@ -1,0 +1,126 @@
+﻿/*Second Master page main form Buttons*/
+
+.mainbtn
+{
+    margin-left:25px;
+    margin-top:10px;
+    background-color:#2e557e;
+    color: white;
+    font-weight:bold;
+    font-size:large;
+    font-family:Calibri;
+    height:45px;
+    width:230px;
+    border:1px solid #b8cfff;
+    border-radius:6px;
+}
+.mainbtn:hover , .mainbtn:focus
+{
+    background-color: #03162a;
+    color:white;
+}
+
+/*All Project pages buttons*/
+
+.projectbtns
+{
+    background-color:#2e557e;
+    color: white;
+    font-weight:bold;
+    font-size:large;
+    font-family:Calibri;
+    border:1px solid #b8cfff;
+    border-radius:6px;
+}
+
+.projectbtns:hover , .projectbtns:focus
+{
+    background-color: #03162a;
+    color:white;
+}
+
+/*show uml daigrams page btn*/
+
+.showUMLdaigrambtns
+{
+    height:50px;
+    width:175px;
+    background-color:#2e557e;
+    color: white;
+    font-weight:bold;
+    font-size:large;
+    font-family:Calibri;
+    border:1px solid #b8cfff;
+    border-radius:6px;
+}
+.showUMLdaigrambtns:hover , .showUMLdaigrambtns:focus
+{
+    background-color: #03162a;
+    color:white;
+}
+
+/*All prject lables*/
+
+.allprojectlables
+{
+    color:#2e557e;
+    font-weight:bold;
+    font-size:large;
+    font-family:Calibri;
+}
+
+/*All project first heading lables*/
+
+.allprojectlfirstheadingables
+{
+    color:#2e557e;
+    font-weight:bold;
+    font-size:large;
+    font-family:Calibri;
+}
+
+/*All projects text box*/
+
+.allprojecttextbox
+{
+    font-weight:bold;
+    font-size:large;
+    color: #2e557e;
+    font-family:'Segoe UI';
+    border: 1px solid #ccc;
+    border-radius:8px;
+    border-color: #2e557e;
+}
+.allprojecttextbox:focus
+{
+
+}
+/*Radio buttons in add attribute page*/
+
+.radiobtns
+{
+    color:#2e557e;
+    font-weight:bold;
+    font-size:large;
+    font-family:Calibri;
+    border-style:none;
+}
+
+/* show top 2 add attributes and behavior buttons all page*/
+
+.showbehaviorandattributebtns {
+    height: 45px;
+    width: 300px;
+    background-color: #2e557e;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    font-family: Calibri;
+    border: 1px solid #b8cfff;
+    border-radius: 6px;
+}
+.showbehaviorandattributebtns:hover , .showbehaviorandattributebtns:focus
+{
+    background-color: #03162a;
+    color:white;
+}
