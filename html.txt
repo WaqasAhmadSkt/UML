@@ -1,0 +1,16 @@
+	<script src="nomnoml-master/lib/zepto.min.js"></script>
+	<script src="nomnoml-master/lib/lodash.min.js"></script>
+	<script src="nomnoml-master/lib/dagre.min.js"></script>
+	<script src="nomnoml-master/skanaar.canvas.js"></script>
+	<script src="nomnoml-master/skanaar.svg.js"></script>
+	<script src="nomnoml-master/codemirror/codemirror-compressed.js"></script>
+	<script src="nomnoml-master/codemirror/nomnoml.codemirror-mode.js"></script>
+	<script src="nomnoml-master/skanaar.util.js"></script>
+	<script src="nomnoml-master/skanaar.vector.js"></script>
+	<script src="nomnoml-master/nomnoml.jison.js"></script>
+	<script src="nomnoml-master/nomnoml.parser.js"></script>
+	<script src="nomnoml-master/nomnoml.layouter.js"></script>
+	<script src="nomnoml-master/nomnoml.renderer.js"></script>
+	<script src="nomnoml-master/nomnoml.js"></script>
+
+
